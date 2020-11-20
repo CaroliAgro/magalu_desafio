@@ -5,12 +5,13 @@ class Api {
     // configuration
     endpoint = 'http://localhost:8000';
     headers = {
-        'Accept':'application/json',
-        'Authorization': null
+        'accept':'application/json',
+        'Content-Type':'application/json',
+        'authorization': null
     }
 
     setAuth = token => {
-        this.headers.Authorization = `Bearer ${token}`
+        this.headers.authorization = `Token ${token}`
     }
     post = (action, parameters) => {
         const promise = axios({

@@ -1,12 +1,26 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+
+import Api from '../services/api';
+
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 import Card from '../components/Card';
 
-// import { Container } from './styles';
-
 function Home() {
+  const [products, setProducts] = useState([])
+
+  useEffect(() => {
+    async function loadProducts(){
+      const response = await Api.get('products/');
+      console.log(response)
+      setProducts(response.data);
+    };
+    loadProducts();
+  }, [])
+  
+  console.log(products)
+
   const produtos = [
     {
       codigo: 1,
@@ -67,12 +81,12 @@ function Home() {
                 </tr>
               </thead>
               <tbody>
-                {produtos.map(produto => (
+                {products.map(product => (
                   <tr>
-                    <td>{produto.codigo}</td>
-                    <td>{produto.titulo}</td>
-                    <td>{produto.valor}</td>
-                    <td>{produto.qtd}</td>
+                    <td>{product.product_code}</td>
+                    <td>{product.title}</td>
+                    <td>{product.unit_price}</td>
+                    <td>{product.quantity}</td>
                     <td className="btn-action text-center">
                       <button type="button" className="btn btn-secondary text-center">
                         <Link to="/cadastro_produto">

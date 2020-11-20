@@ -1,20 +1,39 @@
 import React, { useState } from 'react';
 
-import api from '../services/api';
+import Api from '../services/api';
 
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 import Input from '../components/Input';
 
 function Produto() {
+  const token = localStorage.getItem('token');
+  Api.setAuth(token)
+
   const [code, setCode] = useState('');
   const [title, setTitle] = useState('');
   const [price, setPrice] = useState(0);
   const [quantity, setQuantity] = useState(0);
-  const [status, setStatus] = useState('')
+  const [status, setStatus] = useState('');
 
-  const handleSubmit = e => {
+
+  const handleSubmit = async e => {
     e.preventDefault();
+
+    const formData = new FormData();
+    formData.set('product_code', code);
+    formData.set('title', title);
+    formData.set('unit_price', price);
+    formData.set('quantity', quantity);
+    formData.set('status', 'available');
+
+    Api.post('products/', formData)
+      .then((res) => {
+        console.log('produto registrado', res);
+      })
+      .catch((error) => {
+        console.log('deu erro', error);
+      })
   }
   return (
     <>
@@ -37,10 +56,10 @@ function Produto() {
             </nav>
             <h2>Cadastro de Produto</h2>
             <form>
-              <Input value= {code} onChange={e => setCode(e.target.value)} type="text" label="Código" id="input-code" placeholder="Insira código do produto" />
-              <Input value= {title} onChange={e => setTitle(e.target.value)} type="text" label="Título" id="input-name" placeholder="Insira título do produto" />
-              <Input value= {price} onChange={e => setPrice(e.target.value)} type="number" label="Preço Unitário" id="input-price" placeholder="Insira o preço unitário do produto" />
-              <Input value= {quantity} onChange={e => setQuantity(e.target.value)} type="number" label="Quantidade em Estoque" id="input-quantity" placeholder="Insira a quantidade em estoque do produto" />
+              <Input value={code} onChange={e => setCode(e.target.value)} type="text" label="Código" id="input-code" placeholder="Insira código do produto" />
+              <Input value={title} onChange={e => setTitle(e.target.value)} type="text" label="Título" id="input-name" placeholder="Insira título do produto" />
+              <Input value={price} onChange={e => setPrice(e.target.value)} type="number" label="Preço Unitário" id="input-price" placeholder="Insira o preço unitário do produto" />
+              <Input value={quantity} onChange={e => setQuantity(e.target.value)} type="number" label="Quantidade em Estoque" id="input-quantity" placeholder="Insira a quantidade em estoque do produto" />
               <button className="btn btn-success my-2 my-sm-0" onClick={handleSubmit}>
                 Cadastrar Produto
                 <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-check2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">

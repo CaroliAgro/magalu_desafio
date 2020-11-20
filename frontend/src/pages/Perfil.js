@@ -35,7 +35,6 @@ function Perfil() {
             <h2>Perfil</h2>
             <form>
               <Input value= {name} onChange={e => setName(e.target.value)} type="text" label="Nome" id="input-name" placeholder={name} />
-              COLOCAR LABEL E TIRAR INPUT
               <Input value= {email} onChange={e => setEmail(e.target.value)} type="password" label="Senha" id="input-email" placeholder={email} />
               <button className="btn btn-warning my-2 my-sm-0" onClick={handleSubmit}>
                 Atualizar

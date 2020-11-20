@@ -18,8 +18,9 @@ function Login() {
     formData.set('username', usernameLogin);
     formData.set('password', passwordLogin);
 
-    Api.post('auth/login/', formData)
+    Api.post('token/', formData)
         .then((res)=>{
+          localStorage.setItem('token', res.data.token)
           console.log('deu bom', res);
         })
         .catch((error)=>{
@@ -35,6 +36,7 @@ function Login() {
 
     Api.post('users/register/', formData)
         .then((res)=>{
+          
           console.log('deu bom', res);
         })
         .catch((error)=>{
@@ -63,7 +65,7 @@ function Login() {
 
             <div className='card-login col-6 d-flex align-items-center justify-content-center flex-column'>
 
-              <h3>Já tem cadastro? Entre</h3>
+              <h3>Já tem cadastro? Entre.</h3>
               <p>Entrar no Você no Magalu :)</p> <hr/>
               <form>
                 <Input value={usernameLogin} onChange={e => setUserNameLogin(e.target.value)} type="text" label="Nome de Usuário" id="login-input-username" placeholder='Digite um usuário' />
