@@ -1,0 +1,93 @@
+.img-fluid {
+    width: 100px;
+}
+h2, h1 {
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+h3 {
+    color: #1289FF;
+    font-weight: 600;
+}
+#sidebarMenu {
+    background-image: linear-gradient(to right top, #0059b3, #236fc6, #3a85da, #509cec, #66b3ff);
+}
+#sidebarMenu a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16.5px;
+    display: block;
+    padding: .5rem 1rem;
+}
+#sidebarMenu a:hover {
+    color: #e6e6e6;
+}
+#sidebarMenu a li svg {
+    margin-right: 5px;;
+}
+
+#sidebarMenu .profile-img {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.sidebar-sticky {
+    position: sticky;
+    height: calc(100vh - 48px);
+}
+
+main.landing, main.login {
+    position: sticky;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #0059b3, #236fc6, #3a85da, #509cec, #66b3ff);
+    color: #f2f2f2;
+}
+
+main.landing .title{
+    padding-left: 40px;;
+}
+main.landing .title img {
+    width: 130px;
+    margin-bottom: 20px;
+}
+main.landing button a {
+    text-decoration: none;
+    color: white;
+}
+
+main.landing img{
+    width: 100%;
+}
+
+main.login .content-login .card-login{
+    color: #666666;
+    height: 500px;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 0 5px;
+}
+main.login .content-login .row{
+    height: 100%;
+}
+
+main.login img{
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+main .breadcrumb{
+    background-color: white !important
+}
+
+main.home .card-title {
+    font-weight: 600;
+}
+
+main.home h2 {
+    padding-top: 40px;
+}
+
+main.home table .btn-action a{
+    color: white;
+}
