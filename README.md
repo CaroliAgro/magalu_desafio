@@ -151,12 +151,15 @@ $ python manage.py runserver
 
 Desenvolvido por **Carolina Tavares,  Larissa Silva, Raysa Leide, Valquiria Barioto, Iasmin Silveira, Rebecca Mariah** 👋🏻
 
-**Linkedin**: [Carolina Tavares](https://www.linkedin.com/in/carolina-tavares-de-oliveira/)
+**Linkedin**: 
+- [Carolina Tavares](https://www.linkedin.com/in/carolina-tavares-de-oliveira/)
 - [Rebecca Mariah](https://www.linkedin.com/in/rebecca-mariah-lima-avelino-8964821b7/), 
 - [Valquiria Barioto](https://www.linkedin.com/in/valquiria-barioto-37113144/)
 - [Iasmin Silveira](https://www.linkedin.com/mwlite/in/iasmim-de-jesus-silveira-303924130)
+- [Larissa Silva](https://www.linkedin.com/in/lagcrs)
+- [Raysa Leide]
 
-**Email**: caroli.agro@gmail.com
+
 
 ---
 
