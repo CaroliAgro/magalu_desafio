@@ -147,3 +147,19 @@ $ python manage.py runserver
 </p>
 
 
+# :postbox: Contato
+
+Desenvolvido por **Carolina Tavares,  Larissa Silva, Raysa Leide, Valquiria Barioto, Iasmin Silveira, Rebecca Mariah** 👋🏻
+
+**Linkedin**: [carolina-tavares](https://www.linkedin.com/in/carolina-tavares-de-oliveira/) https://www.linkedin.com/in/rebecca-mariah-lima-avelino-8964821b7/
+
+**Email**: caroli.agro@gmail.com
+
+---
+
+[vc]: https://code.visualstudio.com/
+[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+[vcprettier]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+
+
