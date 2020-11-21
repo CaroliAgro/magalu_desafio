@@ -52,23 +52,19 @@ Para instalação é necessário ter o python e o node instalados na máquina.
 #### :cherry_blossom: Front End
   ``` bash
 $ node --version
-$ python3 - m venv luizacode
-$ source luizacode/bin/activate
 $ git clone https://github.com/CaroliAgro/magalu_desafio.git
 $ cd frontend
 $ npm install
 $ npm start
 
 ```
-
+#### :wrench: Back End
  ``` bash
 $ node --version
 $ python3 - m venv luizacode
 $ source luizacode/bin/activate
-$ git clone https://github.com/CaroliAgro/magalu_desafio.git
-$ cd frontend
-$ npm install
-$ npm start
+$ cd api
+$ python manage.py runserver
 
 ```
 
