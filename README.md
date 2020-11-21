@@ -46,17 +46,29 @@ Você no Magalu é aplicação  que visa facilitar vendedores realizar o cadastr
 Para o desenvolvimento dessa aplicação foi utilizado o framework Django Rest para a criação da API, juntamente com o banco de dados Sqlite3 no back end. Já no front end foi utilizado a biblioteca React para a prototipação das interfaces. 
 
 
-## :pencil: Instalação da aplicação Front End
+## :pencil: Instalação da aplicação 
+
+Para instalação é necessário ter o python e o node instalados na máquina.
+#### :cherry_blossom: Front End
   ``` bash
 $ node --version
 $ python3 - m venv luizacode
 $ source luizacode/bin/activate
-$ git clone 
+$ git clone https://github.com/CaroliAgro/magalu_desafio.git
 $ cd frontend
 $ npm install
 $ npm start
 
+```
 
+ ``` bash
+$ node --version
+$ python3 - m venv luizacode
+$ source luizacode/bin/activate
+$ git clone https://github.com/CaroliAgro/magalu_desafio.git
+$ cd frontend
+$ npm install
+$ npm start
 
 ```
 
