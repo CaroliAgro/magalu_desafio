@@ -60,9 +60,9 @@ $ npm start
 ```
 #### :wrench: Back End
  ``` bash
-$ node --version
 $ python3 - m venv luizacode
 $ source luizacode/bin/activate
+$ pip install requirements.txt
 $ cd api
 $ python manage.py runserver
 
