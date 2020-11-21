@@ -62,7 +62,7 @@ $ npm start
  ``` bash
 $ python3 - m venv luizacode
 $ source luizacode/bin/activate
-$ pip install requirements.txt
+$ pip install -r requirements.txt
 $ cd api
 $ python manage.py runserver
 
