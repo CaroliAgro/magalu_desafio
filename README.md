@@ -121,7 +121,6 @@ $ python manage.py runserver
 
 - **endpoint:** `/products/`
 - **method:** `GET`
-- **params:**
 
 
 - **201 Response:**
@@ -141,5 +140,6 @@ $ python manage.py runserver
 	"status": "available"
 }
 
+## 💻 Outros Endpoints
 
 
