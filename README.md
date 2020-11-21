@@ -33,7 +33,7 @@
 
 
 
-Você no Magalu é aplicação  que visa facilitar vendedores realizar o cadastro, a listagem a atualização e inativação de seus produtos. A aplicação foi desenvolvida visando atender os requisitos obrigatórios do desafio Luiza. Além disso, como diferecial realizamos os testes  unitários, documentação da api, e upload de imagens através  que envia para uma nuvem imagens escolhidas pelos venderedores. 
+Você no Magalu é aplicação  que visa facilitar vendedores realizar o cadastro, a listagem a atualização e inativação de seus produtos. A aplicação foi desenvolvida visando atender os requisitos obrigatórios do desafio Luiza code. Além disso, como diferecial realizamos os testes  unitários, documentação da api, e upload de imagens através de uma Api que envia para uma nuvem imagens escolhidas por vendedores. 
 <br />
   
 ###  :heavy_check_mark:
@@ -48,9 +48,19 @@ Requisitos obrigatórios do desafio
 Para o desenvolvimento dessa aplicação foi utilizado o framework Django Rest para a criação da API, juntamente com o banco de dados Sqlite3 no back end. Já no front end foi utilizado a biblioteca React para a prototipação das interfaces. 
 
 
-## :pencil: Instalação da aplicação
+## :pencil: Instalação da aplicação Front End
+  ``` bash
+$ node --version
+$ python3 - m venv luizacode
+$ source luizacode/bin/activate
+$ git clone 
+$ cd frontend
+$ npm install
+$ npm start
 
 
+
+```
 
 <p align="center">
   <img alt="Landing page" src="./assets/home.png" />
