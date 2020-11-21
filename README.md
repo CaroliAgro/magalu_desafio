@@ -139,6 +139,8 @@ $ python manage.py runserver
 	"unit_price": 230.00,
 	"status": "available"
 }
+```
+
 
 <p align="center">
   <img alt="Proffy" title="Proffy" src="logo.png" />
