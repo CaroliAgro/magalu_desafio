@@ -140,6 +140,8 @@ $ python manage.py runserver
 	"status": "available"
 }
 
-## 💻 Outros Endpoints
+<p align="center">
+  <img alt="Proffy" title="Proffy" src="logo.png" />
+</p>
 
 
