@@ -33,7 +33,7 @@
 
 
 
-Você no Magalu é aplicação  que visa facilitar vendedores realizar o cadastro, a listagem a atualização e inativação de seus produtos. A aplicação foi desenvolvida visando atender os requisitos obrigatórios do desafio Luiza <code>. Além disso, como diferecial realizamos os testes  unitários, documentação da api, e upload de imagens através  que envia para uma nuvem imagens escolhidas pelos venderedores. 
+Você no Magalu é aplicação  que visa facilitar vendedores realizar o cadastro, a listagem a atualização e inativação de seus produtos. A aplicação foi desenvolvida visando atender os requisitos obrigatórios do desafio Luiza. Além disso, como diferecial realizamos os testes  unitários, documentação da api, e upload de imagens através  que envia para uma nuvem imagens escolhidas pelos venderedores. 
 <br />
   
 ###  :heavy_check_mark:
