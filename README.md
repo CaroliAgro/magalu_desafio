@@ -143,7 +143,7 @@ $ python manage.py runserver
 
 
 <p align="center">
-  <img alt="Proffy" title="Proffy" src="logo.png" />
+  <img alt="Proffy" title="Proffy" src="image.png" />
 </p>
 
 
