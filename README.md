@@ -68,9 +68,78 @@ $ python manage.py runserver
 
 ```
 
-<p align="center">
-  <img alt="Landing page" src="./assets/home.png" />
-</p>
+## 💻 API Endpoints
 
-<br />
+
+- **endpoint:** `/users/register/`
+- **method:** `POST`
+- **params:** 
+```json
+{
+	"username": "carca",
+	"password": "carcassonne"
+}
+```
+- **200 Response:**
+```json
+[
+   {
+	"username": "carca",
+	"password": "carcassonne"
+}
+]
+```
+
+
+#### Criando um produto
+
+- **endpoint:** `/products/`
+- **method:** `POST`
+- **params:** Em Basic passar o username e password
+- **200 Response:**
+```json
+{
+	"title": "Fogão",
+	"product_code": "355",
+	"quantity": 10,
+	"unit_price": 250.00,
+	"status": "available"
+}
+```
+- **201 Response**
+```json
+{
+	"title": "Fogão",
+	"product_code": "355",
+	"quantity": 10,
+	"unit_price": 250.00,
+	"status": "available"
+}
+```
+
+#### Listando Produtos
+
+- **endpoint:** `/products/`
+- **method:** `GET`
+- **params:**
+
+
+- **201 Response:**
+```json
+{
+	"title": "Fogão",
+	"product_code": "355",
+	"quantity": 0,
+	"unit_price": 250.00,
+	"status": "available"
+},
+{
+	"title": "Mesa",
+	"product_code": "356",
+	"quantity": 20,
+	"unit_price": 230.00,
+	"status": "available"
+}
+
+
 
