@@ -151,7 +151,7 @@ $ python manage.py runserver
 
 Desenvolvido por **Carolina Tavares,  Larissa Silva, Raysa Leide, Valquiria Barioto, Iasmin Silveira, Rebecca Mariah** 👋🏻
 
-**Linkedin**: [carolina-tavares](https://www.linkedin.com/in/carolina-tavares-de-oliveira/) https://www.linkedin.com/in/rebecca-mariah-lima-avelino-8964821b7/
+**Linkedin**: [carolina-tavares](https://www.linkedin.com/in/carolina-tavares-de-oliveira/), [carolina-tavares] (https://www.linkedin.com/in/rebecca-mariah-lima-avelino-8964821b7/), 
 
 **Email**: caroli.agro@gmail.com
 
