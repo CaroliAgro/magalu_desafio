@@ -33,6 +33,8 @@
 
 # 📚 About
 
+# :hibiscus: Sobre
+
 Você no Magalu é aplicação  que visa facilitar vendedores realizar o cadastro, a listagem a atualização e inativação de seus produtos. Desta forma é possível anunciar seus produtos pela plataforma Magalu, oferencendo maior diversidade no catálogo do Magalu. A aplicação foi desenvolvida visando atender os requisitos obrigatórios do desafio Luiza <code>, além dos adicionais. 
 <br />
 Requisitos obrigatórios do desafi
