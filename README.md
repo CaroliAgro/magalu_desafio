@@ -29,15 +29,13 @@
 
 <br />
 
-# 📚 About
-
+# 📚 Sobre
 
 
 Você no Magalu é aplicação  que visa facilitar vendedores realizar o cadastro, a listagem a atualização e inativação de seus produtos. A aplicação foi desenvolvida visando atender os requisitos obrigatórios do desafio Luiza code. Além disso, como diferecial realizamos os testes  unitários, documentação da api, e upload de imagens através de uma Api que envia para uma nuvem imagens escolhidas por vendedores. 
 <br />
   
-###  :heavy_check_mark:
-Requisitos obrigatórios do desafio
+####  :heavy_check_mark: Requisitos obrigatórios do desafio 
   - Desenvolvimento via Api Rest 
   - Apresentação dos dados via Json
   - Cadastrar, atualizar, consultar e inativar um produto.
