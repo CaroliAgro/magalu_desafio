@@ -8,17 +8,12 @@ from rest_framework.mixins import (
     UpdateModelMixin,
     DestroyModelMixin,
 )
-
 from rest_framework.viewsets import GenericViewSet
-
 from .models import Products
 from .serializers import ProductsSerializer, UserSerializer
-
 from rest_framework import status
 from rest_framework.response import Response
-
 from django.contrib.auth.models import User
-
 from rest_framework.permissions import IsAuthenticated
 
 
